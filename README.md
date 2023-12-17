@@ -1,5 +1,5 @@
 # C-Assignment
-### Simple Interest and compound Interest
+### Code for Simple Interest and compound Interest
 ```
 #include <stdio.h>
 #include <math.h>
