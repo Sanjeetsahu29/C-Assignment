@@ -11,7 +11,7 @@ int main() {
   // Take input from user
   printf("Enter Principal Amount: ");
   scanf("%f", &principal);
-  printf("Enter Rate of Interest (%%): ");
+  printf("Enter Rate of Interest (%): ");
   scanf("%f", &rate);
   printf("Enter Time (in years): ");
   scanf("%f", &time);
