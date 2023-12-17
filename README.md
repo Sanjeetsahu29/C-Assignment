@@ -89,7 +89,8 @@ Store the calculated value in a variable (fahrenheit).
 Display the fahrenheit value as the temperature in Fahrenheit.
 ```
 ### Flowchart
-![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/7d2ccb61-dcef-4e07-95b6-c744cf1ccdd5)
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/b02f6b15-96b3-424f-bbcd-202a2d89ce5a)
+
 
 ## 3. Program to check whether a given number is positive or negative number
 ### Code
