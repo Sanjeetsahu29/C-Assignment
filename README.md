@@ -90,3 +90,46 @@ Display the fahrenheit value as the temperature in Fahrenheit.
 ```
 ### Flowchart
 ![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/7d2ccb61-dcef-4e07-95b6-c744cf1ccdd5)
+
+## 3. Program to check whether a given number is positive or negative number
+### Code
+```
+#include <stdio.h>
+
+int main() {
+  int number;
+
+  // Get the number from the user
+  printf("Enter a number: ");
+  scanf("%d", &number);
+
+  // Check if the number is positive, negative, or zero
+  if (number > 0) {
+    printf("%d is positive.\n", number);
+  } else if (number < 0) {
+    printf("%d is negative.\n", number);
+  } else {
+    printf("%d is zero.\n", number);
+  }
+
+  return 0;
+}
+```
+### Algorithm
+```
+Algorithm to check if a number is positive, negative, or zero:
+1. Input:
+A number x (integer or real).
+Steps:
+
+2. Compare x to zero:
+If x > 0 then x is positive.
+If x < 0 then x is negative.
+If x = 0 then x is zero.
+
+4. Output:
+Based on the comparison in step 1, determine and output the type of the number: positive, negative, or zero.
+```
+
+### Flowchart
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/fa5c2c26-9caf-429e-939d-c607e159f4d2)
