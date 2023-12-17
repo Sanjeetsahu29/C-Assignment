@@ -1,5 +1,5 @@
 # C-Assignment
-## Simple Interest and compound Interest
+## 1. Simple Interest and compound Interest
 ### Code 
 ```
 #include <stdio.h>
@@ -54,4 +54,39 @@ int main() {
 ![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/0d9b0dd9-5f44-4b74-90cd-016bbdcaad7a)
 ![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/b8e7dd07-6a06-4037-a0c2-4697d861dde4)
 
+## 2. Conversion of temperature from Celsius to Fahrenhiet
+### Code
+```
+#include <stdio.h>
 
+int main() {
+  float celsius, fahrenheit;
+
+  // Take input from user for Celsius temperature
+  printf("Enter temperature in Celsius: ");
+  scanf("%f", &celsius);
+
+  // Convert Celsius to Fahrenheit using the formula
+  fahrenheit = (celsius * 9/5) + 32;
+
+  // Display the converted temperature
+  printf("%.2f degrees Celsius is equal to %.2f degrees Fahrenheit.\n", celsius, fahrenheit);
+
+  return 0;
+}
+```
+### Algorithm to convert the temperature in celsius to fahrenhiet
+```
+1. Input
+Obtain the temperature in Celsius, denoted as celsius.
+
+2. Calculation:
+Apply the following formula to celsius:
+fahrenheit = (celsius * 9/5) + 32
+
+3. Output
+Store the calculated value in a variable (fahrenheit).
+Display the fahrenheit value as the temperature in Fahrenheit.
+```
+### Flowchart
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/7d2ccb61-dcef-4e07-95b6-c744cf1ccdd5)
