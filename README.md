@@ -176,3 +176,13 @@ int main() {
   return 0;
 }
 ```
+
+## Algorithm
+```
+1. Iterate through the array: Begin by going through the array from the first element to the second-to-last element.
+2. Compare adjacent elements: At each step, compare two adjacent elements.
+3. Swap if necessary: If the elements are in the wrong order (for example, if sorting in ascending order, and the current element is greater than the next element), swap them.
+4. Continue this process: Keep going through the array, comparing and swapping adjacent elements until you reach the end.
+5. Largest element moves to the end: After each full iteration through the array, the largest unsorted element will settle at the end.
+6. Repeat until sorted: Repeat this process for all elements until no more swaps are needed in an iteration. If no swaps are made in a pass, it means the array is already sorted.
+```
