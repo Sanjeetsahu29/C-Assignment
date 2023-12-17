@@ -49,7 +49,7 @@ int main() {
 9. Display "Compound Interest is: " + compoundInterest
 10. End
 ```
-
+###   Flowchart to find Simple Interest and Compound Interest
 ![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/0d9b0dd9-5f44-4b74-90cd-016bbdcaad7a)
 ![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/b8e7dd07-6a06-4037-a0c2-4697d861dde4)
 
