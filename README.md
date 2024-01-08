@@ -244,3 +244,73 @@ int main() {
 ```
 ![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/e7aca9e8-6ab2-464f-b631-0104e1466880)
 
+# Check Palindrome of a number
+```
+#include <stdio.h>
+int main() {
+  int n, reversed = 0, remainder, original;
+    printf("Enter an integer: ");
+    scanf("%d", &n);
+    original = n;
+
+    // reversed integer is stored in reversed variable
+    while (n != 0) {
+        remainder = n % 10;
+        reversed = reversed * 10 + remainder;
+        n /= 10;
+    }
+
+    // palindrome if orignal and reversed are equal
+    if (original == reversed)
+        printf("%d is a palindrome.", original);
+    else
+        printf("%d is not a palindrome.", original);
+
+    return 0;
+}
+```
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/1ad755c1-5568-4134-9e54-7ff36d0e4fea)
+
+# Multiplication of a number
+```
+#include <stdio.h>
+int main() {
+  int n;
+  printf("Enter an integer: ");
+  scanf("%d", &n);
+
+  for (int i = 1; i <= 10; ++i) {
+    printf("%d * %d = %d \n", n, i, n * i);
+  }
+  return 0;
+}
+```
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/60a9b1d2-2d4a-4676-9dba-df31b9562941)
+
+# Sum and average of a n number
+```
+#include<stdio.h>
+int main()
+{
+  int i,n,sum=0,num;
+  float avg;
+
+  printf("\nEnter How many Number you want?\n");
+  scanf("%d",&n);
+
+  printf("\nEnter elements one by one\n");
+  for(i=0;i<n;++i)
+   {
+     scanf("%d",&num);
+     sum = sum +num;
+   }
+
+  avg = sum/(float)n;
+
+  printf("\nSum of %d Numbers = %d",n, sum);
+  printf("\nAverage of %d Numbers = %.2f",n, avg);
+
+  return 0;
+}
+```
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/664d6fc2-1f30-4233-b4d0-b9f443a7e371)
