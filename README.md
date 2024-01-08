@@ -186,3 +186,61 @@ int main() {
 5. Largest element moves to the end: After each full iteration through the array, the largest unsorted element will settle at the end.
 6. Repeat until sorted: Repeat this process for all elements until no more swaps are needed in an iteration. If no swaps are made in a pass, it means the array is already sorted.
 ```
+
+# Prime number or not
+
+```
+#include <stdio.h>
+
+int main() {
+
+  int n, i, flag = 0;
+  printf("Enter a positive integer: ");
+  scanf("%d", &n);
+
+  // 0 and 1 are not prime numbers
+  // change flag to 1 for non-prime number
+  if (n == 0 || n == 1)
+    flag = 1;
+
+  for (i = 2; i <= n / 2; ++i) {
+
+    // if n is divisible by i, then n is not prime
+    // change flag to 1 for non-prime number
+    if (n % i == 0) {
+      flag = 1;
+      break;
+    }
+  }
+
+  // flag is 0 for prime numbers
+  if (flag == 0)
+    printf("%d is a prime number.", n);
+  else
+    printf("%d is not a prime number.", n);
+
+  return 0;
+}
+```
+
+### Output
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/da65f971-7523-4715-8963-09262a2f1b73)
+
+# Factor of a number
+```
+#include <stdio.h>
+int main() {
+    int num, i;
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
+    printf("Factors of %d are: ", num);
+    for (i = 1; i <= num; ++i) {
+        if (num % i == 0) {
+            printf("%d ", i);
+        }
+    }
+    return 0;
+}
+```
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/e7aca9e8-6ab2-464f-b631-0104e1466880)
+
