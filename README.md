@@ -146,42 +146,32 @@ Based on the comparison in step 1, determine and output the type of the number: 
 ### code
 ```
 #include <stdio.h>
-
-void bubble_sort(int arr[], int n) {
-  bool swapped = true;
-  for (int i = 0; i < n - 1 && swapped; ++i) {
-    swapped = false;
-    for (int j = 0; j < n - i - 1; ++j) {
-      if (arr[j] > arr[j + 1]) {
-        int temp = arr[j];
-        arr[j] = arr[j + 1];
-        arr[j + 1] = temp;
-        swapped = true;
-      }
+int main(){
+    int arr[50], num, x, y, temp;    
+    printf("Please Enter the Number of Elements you want in the array: ");
+    scanf("%d", &num);    
+    printf("Please Enter the Value of Elements: ");
+    for(x = 0; x < num; x++)
+        scanf("%d", &arr[x]);
+    for(x = 0; x < num - 1; x++){       
+        for(y = 0; y < num - x - 1; y++){          
+            if(arr[y] > arr[y + 1]){               
+                temp = arr[y];
+                arr[y] = arr[y + 1];
+                arr[y + 1] = temp;
+            }
+        }
     }
-  }
+    printf("Array after implementing bubble sort: ");
+    for(x = 0; x < num; x++){
+        printf("%d  ", arr[x]);
+    }
+    return 0;
 }
 
-int main() {
-  int arr[100], n;
-  printf("Enter number of elements: ");
-  scanf("%d", &n);
-  printf("Enter %d numbers: \n", n);
-  for (int i = 0; i < n; ++i) {
-    scanf("%d", &arr[i]);
-  }
-
-  bubble_sort(arr, n);
-
-  printf("Sorted array: \n");
-  for (int i = 0; i < n; ++i) {
-    printf("%d ", arr[i]);
-  }
-  printf("\n");
-
-  return 0;
-}
 ```
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/ede0b224-ca9d-425c-af8a-c3dab33b4122)
+
 
 ## Algorithm
 ```
