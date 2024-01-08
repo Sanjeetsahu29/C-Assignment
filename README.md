@@ -30,6 +30,8 @@ int main() {
   return 0;
 }
 ```
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/37cc2d67-d63d-4877-9b83-20aef61086bb)
+
 
 ### Algorithm to Find Simple Interest and Compound Interest
 
@@ -75,6 +77,8 @@ int main() {
   return 0;
 }
 ```
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/761f97e2-ab0c-4399-89d8-a692795474a3)
+
 ### Algorithm to convert the temperature in celsius to fahrenhiet
 ```
 1. Input
@@ -116,6 +120,8 @@ int main() {
   return 0;
 }
 ```
+![image](https://github.com/Sanjeetsahu29/C-Assignment/assets/108270460/a7b26aae-d0fc-4618-b1ff-e8ea0e4b6d6a)
+
 ### Algorithm
 ```
 Algorithm to check if a number is positive, negative, or zero:
